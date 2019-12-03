@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("Blackgoosemenu/images/bullseye.png");
+	background-position: center 200px;
+	background-color: #FBCCC6;
+	margin:0 10%;
+	font-family: sans-serif;
+}
+header {
+  background-color: rgba(255,255,255,0.40);
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+}
+.foodPicture{
+	         float: right; 
+			 margin: 0 12px;
+}
+a {
+  color: #CA782F;
+  text-decoration: none;
+}
+	
+	a:visited{
+		color: #737B93;
+	}
+
+	a:focus, a:hover{
+		color: #F20000;
+		background-color: #fff;
+	}
+	
+	a:active{
+		color: #FF0047;
+		background-color: #fff;
+	}
+h1 {
+	text-align: center;
+	font: bold 1.5em;
+    text-shadow: .1em .1em .2em gray;
+	font-family: serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	border-bottom: 1px solid #062B97;
+	margin-top: 30px;
+	}
+h2 {
+	text-align: center;
+	color: #690020;
+	font-size: 1.5em;
+	}
+h3 {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+dt {
+	font-weight: bold;
+}
+.price {
+	font-weight: lighter;
+}
+.review {
+	text-align: center;
+	background-color: rgba(255,255,255,0.50);
+	padding: 3px 5px;
+}
+
